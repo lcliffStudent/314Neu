@@ -44,3 +44,14 @@ returnInfo = converToRGB("el-capitan.png")
 image2[:, :, 1] = returnInfo[2]
 image2[:, :, 2] = returnInfo[3]
 image2[:, :, 3] = returnInfo[1]
+
+
+# plotting the two images next to eachother
+figure(2)
+subplot(1,2,1)
+imshow(img)
+title("Same images with different colors altered")
+axis("off")
+subplot(1,2,2)
+imshow(image2)
+axis("off")
