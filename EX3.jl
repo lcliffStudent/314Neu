@@ -9,6 +9,7 @@ println(size(img[:,:,1]))
 println(size(img[:,1,:]))
 println(size(img[1,:,:]))
 
+println("Reset with git reset --mixed")
 
 """
 ConverToRGB -- displays image and returns separated colored peices.
